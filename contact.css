@@ -6,6 +6,8 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  font-family: "Titillium Web", sans-serif;
+
 }
 body {
   height: 100vh;
@@ -14,16 +16,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(0, 0%, 8%) ;
+  border-bottom-left-radius: 30%;
+border-bottom-right-radius: 30% ;
+  background-image: linear-gradient(rgb(255, 255, 255), #b8e85149);
+  box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
+  -webkit-box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
+  -moz-box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
   font-family: "Inter Tight", sans-serif;
   flex-direction: column;
+  padding: 80px;
 }
 #card{
   border: solid;
   border: none;
   border-radius: 10px;
   display: flex;
-  background-color:hsl(0, 0%, 12%) ; 
+  background-image: linear-gradient(rgb(66, 66, 66), rgb(163, 162, 162));
   height: 500px;
   width: 300px;
   justify-content: center;
@@ -44,7 +52,7 @@ body {
   color: hsl(75, 94%, 57%);
 }
 #tss{
-  color: hsl(0, 0%, 54%) ;
+  color: hsl(0, 2%, 78%) ;
 }
 #bot{
 padding: 6px;
@@ -63,7 +71,7 @@ gap: 15px;
   font-size: medium;
 }
 #but:hover{
-  background-color:hsl(75, 94%, 57%) ;
+  background-color:hsl(75, 39%, 50%) ;
   color:hsl(0, 0%, 8%) ;
 }
 a {

@@ -7,6 +7,8 @@
 }
 body {
   height: 100vh;
+  font-family: "Titillium Web", sans-serif;
+
 }
 nav ul {
   display: flex;
@@ -17,7 +19,7 @@ nav ul li {
   padding: 20px;
   display: flex;
   align-items: center;
-  font-size: 35px;
+  font-size: 30px;
 }
 #home {
   text-decoration: underline #b8e851 3px;
@@ -76,7 +78,7 @@ padding: 80px;
   font-family: "Raleway", sans-serif;
   font-size: large;
   height: 200px;
-  ackground-image: linear-gradient(rgb(255, 255, 255), rgb(163, 162, 162));
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(163, 162, 162));
   box-shadow: 1px 1px 13px 13px rgba(0,0,0,0.4);
 -webkit-box-shadow: 1px 1px 13px 13px rgba(0,0,0,0.4);
 -moz-box-shadow: 1px 1px 13px 13px rgba(0,0,0,0.4);
@@ -90,7 +92,7 @@ padding: 80px;
 }
 
 .form-container {
-  background-color: #fff;
+  background-color: #ffffffcb;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);

@@ -16,7 +16,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
     // Validate email
     const email = document.getElementById('email').value;
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const emailPattern =  azimut.consult23@gmail.com
     if (!emailPattern.test(email)) {
         document.getElementById('email-error').textContent = 'Veuillez entrer un email valide.';
         document.getElementById('email-error').style.display = 'block';
