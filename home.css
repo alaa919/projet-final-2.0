@@ -38,7 +38,7 @@ a:visited {
   color: #27330d;
 }
 a:hover {
-  color: #555555;
+  color: #000000;
 }
 #presentation {
   display: flex;
@@ -49,7 +49,7 @@ a:hover {
   font-size: 20px;
 border-bottom-left-radius: 30%;
 border-bottom-right-radius: 30% ;
-  background-image: linear-gradient(rgb(255, 255, 255), #b8e85149);
+  background-image: linear-gradient(rgb(255, 255, 255), #b8e85167);
   box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
   -webkit-box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
   -moz-box-shadow: -2px -32px 31px -24px rgba(0,0,0,0.65) inset;
@@ -84,7 +84,7 @@ padding: 80px;
 -moz-box-shadow: 1px 1px 13px 13px rgba(0,0,0,0.4);
 }
 #t:hover{
-  background-image: linear-gradient(rgb(255, 255, 255), #b8e85152);
+  background-image: linear-gradient(rgb(255, 255, 255), #b4e64888);
 }
 #b{
   color: #7ba02cd2;
@@ -157,7 +157,7 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding: 70px;
-  background-image: linear-gradient(rgb(255, 255, 255), #b8e85152);
+  background-image: linear-gradient(rgb(255, 255, 255), #b8e85179);
   box-shadow: 0px -44px 38px -43px rgba(0,0,0,0.75) inset;
   -webkit-box-shadow: 0px -44px 38px -43px rgba(0,0,0,0.75) inset;
   -moz-box-shadow: 0px -44px 38px -43px rgba(0,0,0,0.75) inset;

@@ -1,73 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prestation de bureau.azimut consult</title>
-    <link rel="stylesheet" href="./et.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prestation de bureau.azimut consult</title>
+  <link rel="stylesheet" href="./et.css">
 </head>
+
 <body>
-    <nav id="nb">
-        <ul>
-          <li><img src="./Logo AZIMUT V4 (2).png" alt="" /></li>
-          <li id="home" class="a"><a href="./home.html">home</a></li>
-          <li class="c"><a href="./contact.html">contact</a></li>
-        </ul>
-      </nav>
-      <div id="jsp">
-        <h1 id="l">Etude</h1>
-      </div>
-      <div id="tg">
-        <div id="p">
-          <h1 id="h1">Prestation de bureau</h1>
-          <ul>
-            <li>Etude de tracé ferroviaire et routière</li>
-            <li>Etude VRD</li>
-            <li>Etablissement des notes de calcule</li>
-           <h1>Prestation supplémentaire</h1>
-            <li>Résolution des problèmes technique</li>
-            <li>Préparation de réunion et conférence</li>
-            <li>Etablissement des rapports journaliers, mensuel, techniques justificatifs…</li>
-            <li>Définition des besoins topographique d’un projet</li>
-            <li>Élaboration des procédures et méthodologie topographiques et d&#39;auscultation</li>
-            <li>Logistique et pilotage des moyens humains</li>
-          <li>Audite des études topographiques</li>
-          <li>Audite des procédures d’exécution topographique</li>
+  <nav id="nb">
+    <ul>
+      <li><img src="./Logo AZIMUT V4 (2).png" alt="" /></li>
+      <li id="home" class="a"><a href="./home.html">home</a></li>
+      <li class="c"><a href="./contact.html">contact</a></li>
+    </ul>
+  </nav>
+  <div id="jsp">
+    <h1 id="l">Etude</h1>
+  </div>
+  <div id="tg">
+    <div id="p">
+      <h1 id="h1">Prestation de bureau</h1>
+      <ul>
+        <li>Etude de tracé ferroviaire et routière</li>
+        <li>Etude VRD</li>
+        <li>Etablissement des notes de calcule</li>
+        <h1>Prestation supplémentaire</h1>
+        <li>Résolution des problèmes technique</li>
+        <li>Préparation de réunion et conférence</li>
+        <li>Etablissement des rapports journaliers, mensuel, techniques justificatifs…</li>
+        <li>Définition des besoins topographique d’un projet</li>
+        <li>Élaboration des procédures et méthodologie topographiques et d&#39;auscultation</li>
+        <li>Logistique et pilotage des moyens humains</li>
+        <li>Audite des études topographiques</li>
+        <li>Audite des procédures d’exécution topographique</li>
         <h1>Prestation spécifique aux travaux de voie ferrée (en particulier Tramway et Métro)</h1>
         <li>Préparation des plans de cintrage (carnet de cintrage)</li>
         <li>Préparation des coordonnées des points de soudure (cas particulier en profil
-            altimétrique)</li>
+          altimétrique)</li>
         <li>Préparation des données d’implantation des appareils de voie (cas particulier en
-            profil altimétrique)</li>
+          profil altimétrique)</li>
         <li>Etude de tracer selon les normes en vigueur</li>
         <li>Reprofilage de tracer</li>
         <li>Préparation des données tracer pour les stations total (Axe RoadRunner Axe projet
-            voie)</li>
-        </ul>
+          voie)</li>
+      </ul>
+    </div>
+  </div>
+  <div id="formulair">
+    <div class="form-container">
+      <h1>une question?</h1>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required />
+          <span class="error" id="name-error"></span>
         </div>
-      </div>
-      <div id="formulair">
-        <div class="form-container">
-          <h1>une question?</h1>
-          <form id="contact-form">
-            <div class="form-group">
-              <label for="name">Nom :</label>
-              <input type="text" id="name" name="name" required />
-              <span class="error" id="name-error"></span>
-            </div>
-            <div class="form-group">
-              <label for="email">Email :</label>
-              <input type="email" id="email" name="email" required />
-              <span class="error" id="email-error"></span>
-            </div>
-            <div class="form-group">
-              <label for="message">Message :</label>
-              <textarea id="message" name="message" rows="4" required></textarea>
-              <span class="error" id="message-error"></span>
-            </div>
-            <button type="submit">Envoyer</button>
-          </form>
+        <div class="form-group">
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required />
+          <span class="error" id="email-error"></span>
         </div>
-      </div>
+        <div class="form-group">
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+          <span class="error" id="message-error"></span>
+        </div>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
 </body>
+
 </html>
